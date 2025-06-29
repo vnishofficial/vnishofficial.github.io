@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+<meta name="description" content="VNish India provides optimized firmware downloads for Antminer ASIC miners including S19, S21, T19, T21, L7, and L9 series. Boost your mining performance with SD Card and ASIC Miner Chip firmware updates.">
+  <meta name="keywords" content="VNish, Antminer firmware, S19, S21, T21, T19, L7, L9, ASIC firmware, SD Card install, NAND update, mining optimization">
+  <meta name="author" content="VNish India">
+  <meta property="og:title" content="VNish India - Optimized ASIC Firmware">
+  <meta property="og:description" content="Download optimized firmware for Antminer ASIC miners - S19, S21, T21, T19, L7, and L9. Includes SD Card and NAND update links.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:url" content="https://vnishindia.com">
+  <link rel="canonical" href="https://vnishindia.com">
+  <meta name="robots" content="index, follow">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VNish India - Professional ASIC Firmware</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+  <script>
+    function showFirmwareOptions(model) {
+      const content = {
+        'Antminer T21 (Xilinx)': `
+          <h4 class="text-lg font-semibold mt-4 mb-2">SD Card</h4>
+          <ul class="list-disc list-inside">
+            <li><a href="#" class="text-blue-600 underline">INSTALL: vnish-official-t21-xil-sd-v1.2.6-install.tar.gz</a></li>
+            <li><a href="#" class="text-blue-600 underline">UPDATE: vnish-official-t21-xil-sd-v1.2.6-update.tar.gz</a></li>
+          </ul>
+          <h4 class="text-lg font-semibold mt-4 mb-2">ASIC Miner Chip (NAND)</h4>
+          <ul class="list-disc list-inside">
+            <li><a href="#" class="text-blue-600 underline">INSTALL: [link here]</a></li>
+          </ul>
+        `,
+        'Antminer S19': `<p class='mt-4'>Firmware options coming soon.</p>`,
+        'Whatsminer M30': `<p class='mt-4'>Firmware options coming soon.</p>`,
+        'Whatsminer M50': `<p class='mt-4'>Firmware options coming soon.</p>`
+      };
+
+      document.getElementById("firmware-content").innerHTML = content[model] || "";
+    }
+  </script>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+      body {
+        background-image: url('assets/crypto-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      .bg-gray-800, .bg-gray-900 {
+        background-color: rgba(0, 0, 0, 0.7) !important;
+      }
+    </style>
+<style>
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: linear-gradient(to bottom right, rgba(15, 23, 42, 0.85), rgba(30, 41, 59, 0.85));
+        z-index: -1;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+    </style>
+<style>
+      .fade-in-up {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.8s ease-out forwards;
+      }
+      .fade-in-delay {
+        animation-delay: 0.4s;
+      }
+      @keyframes fadeInUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .floating-cta {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 50;
+        background: linear-gradient(to right, #14b8a6, #3b82f6);
+        color: white;
+        padding: 12px 20px;
+        border-radius: 9999px;
+        font-weight: bold;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        transition: transform 0.3s ease;
+      }
+      .floating-cta:hover {
+        transform: scale(1.05);
+      }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-gray-100">
+  <header class="bg-gray-800 dark:bg-gray-800 shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <img src="assets/logo.png" alt="VNish Logo" class="h-10">
+        <h1 class="text-xl font-bold">VNish Firmware India</h1>
+      </div>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-gray-300 dark:text-gray-300 hover:text-blue-600 font-medium">Home</a>
+        <a href="#firmware" class="text-gray-300 dark:text-gray-300 hover:text-blue-600 font-medium">Firmware</a>
+        <a href="#support" class="text-gray-300 dark:text-gray-300 hover:text-blue-600 font-medium">Support</a>
+        <a href="#contact" class="text-gray-300 dark:text-gray-300 hover:text-blue-600 font-medium">Contact</a>
+      
+
+    
+</nav>
+    </div>
+  </header>
+
+  <section class="bg-blue-600 text-white py-20 text-center">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-4xl font-bold mb-4">Boost Your Mining Power</h2>
+      <p class="mb-6 text-lg">Optimized ASIC firmware for Bitmain Antminer models with advanced auto-tuning and power control.</p>
+    </div>
+  </section>
+
+  
+<section class="py-12 px-4 max-w-7xl mx-auto fade-in-up"
+  
+<div class="video-container mb-8">
+  <iframe class="w-full h-64 md:h-96 rounded-lg shadow glass"
+          src="https://www.youtube.com/embed/zGU7OndeVFw"
+          title="VNish ASIC Firmware Overview"
+          frameborder="0"
+          allowfullscreen></iframe>
+</div>
+
+<h2 class="text-4xl font-extrabold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-cyan-500">Firmware Downloads</h2>
+
+  <div class="mb-6 flex flex-col md:flex-row items-center justify-between gap-4">
+    <input type="text" id="searchInput" placeholder="Search model..." class="w-full md:w-1/2 p-3 border border-gray-600 dark:border-gray-600 rounded" onkeyup="filterModels()">
+    <select id="categoryFilter" onchange="filterModels()" class="p-3 border border-gray-600 dark:border-gray-600 rounded w-full md:w-1/3">
+      <option value="">All Categories</option><option value="s19">S19 Series</option><option value="s21">S21 Series</option><option value="t19">T19 Series</option><option value="t21">T21 Series</option><option value="l7">L7 Series</option><option value="l9">L9 Series</option>
+    </select>
+  </div>
+  <div id="firmwareTable">
+    
+<div class="mb-6">
+  <button class="w-full text-left font-semibold text-xl bg-gray-700 dark:bg-gray-700 p-3 rounded hover:bg-gray-600 dark:hover:bg-gray-600" onclick="toggleGroup('s19')">S19 Series</button>
+  <div id="s19-group" class="group-block mt-3">
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 xp (xilinx)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 XP (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19xp-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19xp-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19xp-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19xp-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 xp (cvtek)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 XP (CVTek)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19xp-cv-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19xp-cv-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 xp (amlogic)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 XP (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19xp-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19xp-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19xp-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19xp-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 xp hydro (xilinx)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 XP Hydro (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19xp-hydro-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19xp-hydro-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19xp-hydro-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19xp-hydro-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 (xilinx)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 pro (xilinx)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 Pro (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19pro-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19pro-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19pro-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19pro-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 pro plus hydro (xilinx)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 Pro Plus Hydro (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19pro-plus-hydro-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19pro-plus-hydro-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 pro hydro (xilinx)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 Pro Hydro (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19pro-hydro-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19pro-hydro-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19pro-hydro-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19pro-hydro-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 plus (xilinx)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 Plus (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19plus-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19plus-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19plus-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19plus-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19xp (xilinx)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19XP (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19xp-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19xp-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19xp-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19xp-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 hydro (xilinx)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 Hydro (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19-hydro-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19-hydro-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19-hydro-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19-hydro-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 126 (cvtek)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 126 (CVTek)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19-126-cv-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19-126-cv-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 126 (amlogic)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 126 (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19-126-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19-126-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19-126-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19-126-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19 88 (amlogic)" data-category="s19">
+      <h4 class="text-xl font-bold mb-2">Antminer S19 88 (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19-88-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19-88-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19-88-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19-88-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div></div></div>
+<div class="mb-6">
+  <button class="w-full text-left font-semibold text-xl bg-gray-700 dark:bg-gray-700 p-3 rounded hover:bg-gray-600 dark:hover:bg-gray-600" onclick="toggleGroup('t21')">T21 Series</button>
+  <div id="t21-group" class="group-block mt-3">
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer t21 (xilinx)" data-category="t21">
+      <h4 class="text-xl font-bold mb-2">Antminer T21 (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-t21-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-t21-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-t21-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-t21-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer t21 (cvtek)" data-category="t21">
+      <h4 class="text-xl font-bold mb-2">Antminer T21 (CVTek)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-t21-cv-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-t21-cv-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer t21 (amlogic)" data-category="t21">
+      <h4 class="text-xl font-bold mb-2">Antminer T21 (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-t21-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-t21-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-t21-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-t21-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div></div></div>
+<div class="mb-6">
+  <button class="w-full text-left font-semibold text-xl bg-gray-700 dark:bg-gray-700 p-3 rounded hover:bg-gray-600 dark:hover:bg-gray-600" onclick="toggleGroup('t19')">T19 Series</button>
+  <div id="t19-group" class="group-block mt-3">
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer t19 (xilinx)" data-category="t19">
+      <h4 class="text-xl font-bold mb-2">Antminer T19 (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-t19-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-t19-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-t19-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-t19-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div></div></div>
+<div class="mb-6">
+  <button class="w-full text-left font-semibold text-xl bg-gray-700 dark:bg-gray-700 p-3 rounded hover:bg-gray-600 dark:hover:bg-gray-600" onclick="toggleGroup('s21')">S21 Series</button>
+  <div id="s21-group" class="group-block mt-3">
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s21 (amlogic)" data-category="s21">
+      <h4 class="text-xl font-bold mb-2">Antminer S21 (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-S21-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-S21-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-S21-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-S21-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s21 xp hydro (xilinx)" data-category="s21">
+      <h4 class="text-xl font-bold mb-2">Antminer S21 XP Hydro (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s21xp-hydro-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s21xp-hydro-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s21xp-hydro-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s21xp-hydro-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s21 xp (amlogic)" data-category="s21">
+      <h4 class="text-xl font-bold mb-2">Antminer S21 XP (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s21xp-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s21xp-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s21xp-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s21xp-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s21 pro (amlogic)" data-category="s21">
+      <h4 class="text-xl font-bold mb-2">Antminer S21 Pro (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s21pro-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s21pro-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s21pro-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s21pro-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s21 plus (hydro)" data-category="s21">
+      <h4 class="text-xl font-bold mb-2">Antminer S21 Plus (Hydro)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s21plus-hydro-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s21plus-hydro-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s21plus-hydro-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s21plus-hydro-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s21 (hydro)" data-category="s21">
+      <h4 class="text-xl font-bold mb-2">Antminer S21 (Hydro)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s21-hydro-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s21-hydro-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s21-hydro-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s21-hydro-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div></div></div>
+<div class="mb-6">
+  <button class="w-full text-left font-semibold text-xl bg-gray-700 dark:bg-gray-700 p-3 rounded hover:bg-gray-600 dark:hover:bg-gray-600" onclick="toggleGroup('s19k')">S19K Series</button>
+  <div id="s19k-group" class="group-block mt-3">
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19k pro (cvtek)" data-category="s19k">
+      <h4 class="text-xl font-bold mb-2">Antminer S19K Pro (CVTek)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19kpro-cv-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19kpro-cv-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19k pro (amlogic)" data-category="s19k">
+      <h4 class="text-xl font-bold mb-2">Antminer S19K Pro (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19kpro-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19kpro-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19kpro-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19kpro-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div></div></div>
+<div class="mb-6">
+  <button class="w-full text-left font-semibold text-xl bg-gray-700 dark:bg-gray-700 p-3 rounded hover:bg-gray-600 dark:hover:bg-gray-600" onclick="toggleGroup('s19j')">S19J Series</button>
+  <div id="s19j-group" class="group-block mt-3">
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19j xp (cvtek)" data-category="s19j">
+      <h4 class="text-xl font-bold mb-2">Antminer S19J XP (CVTek)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19j-xp-cv-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19j-xp-cv-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19j xp (amlogic)" data-category="s19j">
+      <h4 class="text-xl font-bold mb-2">Antminer S19J XP (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19j-xp-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19j-xp-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19j-xp-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19j-xp-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19j pro (xilinx)" data-category="s19j">
+      <h4 class="text-xl font-bold mb-2">Antminer S19J Pro (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19jpro-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19jpro-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19jpro-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19jpro-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19j pro (amlogic)" data-category="s19j">
+      <h4 class="text-xl font-bold mb-2">Antminer S19J Pro (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19jpro-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19jpro-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19jpro-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19jpro-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19j pro (cvtek)" data-category="s19j">
+      <h4 class="text-xl font-bold mb-2">Antminer S19J Pro (CVTek)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19jpro-cv-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19jpro-cv-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19j pro (beaglebone)" data-category="s19j">
+      <h4 class="text-xl font-bold mb-2">Antminer S19J Pro (BeagleBone)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19jpro-bb-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19jpro-bb-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19jpro-bb-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19jpro-bb-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19j pro plus (cvtek)" data-category="s19j">
+      <h4 class="text-xl font-bold mb-2">Antminer S19J Pro Plus (CVTek)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19jpro-plus-cv-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19jpro-plus-cv-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19j pro plus (amlogic)" data-category="s19j">
+      <h4 class="text-xl font-bold mb-2">Antminer S19J Pro Plus (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19jpro-plus-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19jpro-plus-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19jpro-plus-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19jpro-plus-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19j (beaglebone)" data-category="s19j">
+      <h4 class="text-xl font-bold mb-2">Antminer S19J (BeagleBone)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19j-bb-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19j-bb-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19j-bb-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19j-bb-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div></div></div>
+<div class="mb-6">
+  <button class="w-full text-left font-semibold text-xl bg-gray-700 dark:bg-gray-700 p-3 rounded hover:bg-gray-600 dark:hover:bg-gray-600" onclick="toggleGroup('s19i')">S19i Series</button>
+  <div id="s19i-group" class="group-block mt-3">
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19i (xilinx)" data-category="s19i">
+      <h4 class="text-xl font-bold mb-2">Antminer S19i (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19i-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19i-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19i-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19i-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div></div></div>
+<div class="mb-6">
+  <button class="w-full text-left font-semibold text-xl bg-gray-700 dark:bg-gray-700 p-3 rounded hover:bg-gray-600 dark:hover:bg-gray-600" onclick="toggleGroup('s19e')">S19e Series</button>
+  <div id="s19e-group" class="group-block mt-3">
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer s19e xp (xilinx)" data-category="s19e">
+      <h4 class="text-xl font-bold mb-2">Antminer S19e XP (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19e-xp-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19e-xp-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-s19e-xp-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-s19e-xp-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div></div></div>
+<div class="mb-6">
+  <button class="w-full text-left font-semibold text-xl bg-gray-700 dark:bg-gray-700 p-3 rounded hover:bg-gray-600 dark:hover:bg-gray-600" onclick="toggleGroup('l9')">L9 Series</button>
+  <div id="l9-group" class="group-block mt-3">
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer l9 (cvtek)" data-category="l9">
+      <h4 class="text-xl font-bold mb-2">Antminer L9 (CVTek)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-l9-cv-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-l9-cv-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div>
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer l9 (amlogic)" data-category="l9">
+      <h4 class="text-xl font-bold mb-2">Antminer L9 (Amlogic)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-l9-aml-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-l9-aml-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-l9-aml-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-l9-aml-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div></div></div>
+<div class="mb-6">
+  <button class="w-full text-left font-semibold text-xl bg-gray-700 dark:bg-gray-700 p-3 rounded hover:bg-gray-600 dark:hover:bg-gray-600" onclick="toggleGroup('l7')">L7 Series</button>
+  <div id="l7-group" class="group-block mt-3">
+    <div class="model-entry mb-6 bg-gray-800 dark:bg-gray-800 rounded-lg shadow p-4 glass" data-model="antminer l7 (xilinx)" data-category="l7">
+      <h4 class="text-xl font-bold mb-2">Antminer L7 (Xilinx)</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">SD Card</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-l7-xil-sd-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-l7-xil-sd-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div><div><h5 class="font-semibold text-gray-300 dark:text-gray-300 mb-1">ASIC Miner Chip (NAND)</h5><ul class="list-disc list-inside"><li><a href="downloads/vnish-official-l7-xil-nand-v1.2.6-install.tar.gz" class="text-blue-600 hover:underline">INSTALL</a></li><li><a href="downloads/vnish-official-l7-xil-nand-v1.2.6-update.tar.gz" class="text-blue-600 hover:underline">UPDATE</a></li></ul></div></div></div></div></div></div></section>
+<script>
+function filterModels() {
+  const query = document.getElementById("searchInput").value.toLowerCase();
+  const category = document.getElementById("categoryFilter").value;
+  const models = document.querySelectorAll(".model-entry");
+
+  models.forEach(model => {
+    const modelName = model.getAttribute("data-model");
+    const modelCat = model.getAttribute("data-category");
+    const matchText = modelName.includes(query);
+    const matchCat = category === "" || category === modelCat;
+    model.style.display = (matchText && matchCat) ? "" : "none";
+  });
+
+  // Hide group if all children are hidden
+  document.querySelectorAll(".group-block").forEach(group => {
+    const visibleModels = group.querySelectorAll(".model-entry:not([style*='display: none'])");
+    group.style.display = visibleModels.length ? "" : "none";
+  });
+}
+
+function toggleGroup(groupId) {
+  const el = document.getElementById(groupId + '-group');
+  if (el.style.display === 'none') {
+    el.style.display = '';
+  } else {
+    el.style.display = 'none';
+  }
+}
+</script>
+    
+
+  <footer class="bg-gray-900 dark:bg-gray-900 py-6 mt-20">
+    <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-400 dark:text-gray-400">
+      &copy; 2025 VNish India. All rights reserved.
+    </div>
+  <section id="contact" class="fade-in-up fade-in-delay" class="py-16 px-4 max-w-4xl mx-auto">
+  <h2 class="text-4xl font-extrabold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Contact Us</h2>
+  <form action="https://formspree.io/f/xnnvlwkk" method="POST" class="bg-gray-800 glass p-6 rounded-lg shadow-md space-y-4">
+    <div>
+      <label for="name" class="block text-sm font-medium mb-1">Name</label>
+      <input type="text" id="name" name="name" required class="w-full p-3 rounded-lg bg-gray-900 text-white border border-gray-700 shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring focus:ring-blue-500">
+    </div>
+    <div>
+      <label for="email" class="block text-sm font-medium mb-1">Email</label>
+      <input type="email" id="email" name="_replyto" required class="w-full p-3 rounded-lg bg-gray-900 text-white border border-gray-700 shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring focus:ring-blue-500">
+    </div>
+    <div>
+      <label for="message" class="block text-sm font-medium mb-1">Message</label>
+      <textarea id="message" name="message" rows="5" required class="w-full p-3 rounded-lg bg-gray-900 text-white border border-gray-700 shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring focus:ring-blue-500"></textarea>
+    </div>
+    <button type="submit" class="w-full py-3 rounded-lg bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold shadow hover:scale-105 transition">Send Message</button>
+  </form>
+    <p class="thank-you-message" style="display: none;">Thanks for your message!</p>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+        const response = await fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (response.ok) {
+          form.reset();
+          document.querySelector(".thank-you-message").style.display = "block";
+        }
+      });
+    </script>
+    
+</section>
+</footer>
+<a href="#contact" class="floating-cta">Get in Touch</a>
+</body>
+
+</html>
