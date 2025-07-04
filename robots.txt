@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vnishofficial.github.io/sitemap.xml
