@@ -8,8 +8,4 @@
     <loc>https://vnish.co.in/index.html</loc>
     <priority>0.90</priority>
   </url>
-  <url>
-    <loc>https://vnish.co.in/firmware.html</loc>
-    <priority>0.80</priority>
-  </url>
 </urlset>
